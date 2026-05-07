@@ -60,3 +60,18 @@ body {
     background-color: #0282f9;
   }
 }
+
+/* Main */
+.app-main {
+  background-color: var(--dc-darker);
+  color: var(--dc-lighter);
+
+  .main-content {
+    min-height: 100px;
+  }
+
+  .main-banner {
+    background-color: var(--dc-primary);
+    min-height: 200px;
+  }
+}
