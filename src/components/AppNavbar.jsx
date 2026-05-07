@@ -17,7 +17,7 @@ export default function AppNavbar() {
 
     return (
         <nav className="navbar">
-            <ul className="d-flex gap-4 unstyled-list">
+            <ul className="d-flex gap-4 fw-semibold">
                 {/*Creo un NavItem per ogni elemento dell'array links*/}
                 {links.map((link) => (
                     <NavItem
