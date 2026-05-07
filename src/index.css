@@ -31,4 +31,29 @@ ul {
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: var(--dc-dark);
+}
+
+
+/* Header */
+.app-header {
+
+
+  .nav-link {
+    position: relative;
+  }
+
+  .nav-link.selected {
+    color: var(--dc-primary);
+  }
+
+  .nav-link.selected::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 4px;
+    background-color: #0282f9;
+  }
 }
