@@ -1,5 +1,7 @@
-export default function AppNavbar() {
+import NavItem from "./NavItem"
 
+export default function AppNavbar() {
+    // Array di link della navbar
     const links = [
         "CHARACTERS",
         "COMICS",
@@ -16,10 +18,12 @@ export default function AppNavbar() {
     return (
         <nav className="navbar">
             <ul>
+                {/*Creo un NavItem per ogni elemento dell'array links*/}
                 {links.map((link) => (
-                    <li key={link}>
-                        <a href="#">{link}</a>
-                    </li>
+                    <NavItem
+                        key={link}
+                        text={link}
+                    />
                 ))
                 }
             </ul>
