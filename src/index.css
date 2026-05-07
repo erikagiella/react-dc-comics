@@ -38,6 +38,9 @@ body {
 /* Header */
 .app-header {
 
+  .nav-logo {
+    width: 90px;
+  }
 
   .nav-link {
     position: relative;
