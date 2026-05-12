@@ -73,5 +73,11 @@ body {
   .main-banner {
     background-color: var(--dc-primary);
     min-height: 150px;
+
+    .banner-item {
+      &>img {
+        height: 20px;
+      }
+    }
   }
 }

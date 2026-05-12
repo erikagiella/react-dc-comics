@@ -1,8 +1,8 @@
 export default function BannerItem({ image, text }) {
     return (
-        <div className="d-flex">
+        <div className="banner-item d-flex align-items-center">
             <img src={image} alt={text} />
-            <div className="bannerItemText">{text}</div>
+            <span>{text}</span>
         </div>
     )
 }
