@@ -1,3 +1,4 @@
+import FooterBottom from "./FooterBottom";
 import FooterSections from "./FooterSections";
 
 
@@ -7,7 +8,7 @@ export default function AppFooter() {
 
         <footer>
             <FooterSections />
-
+            <FooterBottom />
         </footer>
     )
 }
