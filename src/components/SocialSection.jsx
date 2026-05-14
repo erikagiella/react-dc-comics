@@ -5,7 +5,7 @@ export default function SocialSection() {
         <div className="social-section">
             <h4>FOLLOW US</h4>
             <ul>
-                {socials.map((social) => (
+                {socialLinks.map((social) => (
 
                     <li key={social.name}>
 

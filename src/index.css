@@ -85,3 +85,19 @@ body {
     }
   }
 }
+
+/* Footer */
+.app-footer {
+  color: var(--dc-lighter);
+  background-image: url("./assets/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+
+  .footer-sections {
+    min-height: 350px;
+  }
+
+  .footer-bottom {
+    background-color: var(--dc-dark);
+  }
+
+}

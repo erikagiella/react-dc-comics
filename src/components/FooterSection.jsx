@@ -1,7 +1,7 @@
 export default function FooterSection({ title, links }) {
     return (
-        <>
-            <h3>{title}</h3>
+        <div className="social-section d-flex align-items-center gap-3">
+            <h4 className="section-title fw-bold">{title}</h4>
             <ul>
                 {
                     links.map((link) => (
@@ -13,7 +13,7 @@ export default function FooterSection({ title, links }) {
                     ))
                 }
             </ul>
-        </>
+        </div>
 
     )
 }
