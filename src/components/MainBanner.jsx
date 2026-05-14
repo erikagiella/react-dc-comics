@@ -9,23 +9,28 @@ export default function MainBanner() {
     const bannerItems = [
         {
             text: "DIGITAL COMICS",
-            image: digitalComics
+            image: digitalComics,
+            className: "digital-comics"
         },
         {
             text: "DC MERCHANDISE",
-            image: merchandise
+            image: merchandise,
+            className: "merchandise"
         },
         {
             text: "SUBSCRIPTION",
-            image: subscriptions
+            image: subscriptions,
+            className: "subscriptions"
         },
         {
             text: "COMIC SHOP LOCATOR",
-            image: shopLocator
+            image: shopLocator,
+            className: "shop-locator"
         },
         {
             text: "DC POWER VISA",
-            image: dcPowerVisa
+            image: dcPowerVisa,
+            className: "visa-power"
         }
     ]
 
@@ -37,6 +42,7 @@ export default function MainBanner() {
                         key={item.text}
                         text={item.text}
                         image={item.image}
+                        className={item.className}
                     />
                 ))}
             </div>

@@ -70,13 +70,16 @@ body {
     min-height: 100px;
   }
 
+  /* Banner */
   .main-banner {
     background-color: var(--dc-primary);
-
 
     .banner-item {
       &>img {
         height: 50px;
+      }
+
+      .visa-power {
         max-width: 50px;
       }
     }
