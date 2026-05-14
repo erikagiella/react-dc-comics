@@ -1,22 +1,7 @@
 import FooterSection from "./FooterSection.jsx";
+import footerSections from "../data/FooterLinks.js";
 
 export default function AppFooter() {
-    const footerSections = [
-        {
-            title: "COMISC",
-            links: [
-                {
-                    text: "lalal",
-                    url: ""
-                },
-
-                {
-                    text: "babba",
-                    url: ""
-                },
-            ]
-        },
-    ]
 
     return (
 
