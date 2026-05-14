@@ -13,6 +13,7 @@
   --dc-primary: #0282f9;
   --dc-darker: #1c1c1c;
   --dc-dark: #303030;
+  --dc-light: gray;
 }
 
 /* Utilities */
@@ -88,12 +89,32 @@ body {
 
 /* Footer */
 .app-footer {
-  color: var(--dc-lighter);
+
   background-image: url("./assets/img/footer-bg.jpg");
   background-repeat: no-repeat;
 
-  .footer-sections {
+  &>.footer-sections {
     min-height: 350px;
+
+    .footer-section {
+      ul {
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 0.3rem;
+      }
+
+      a {
+        color: var(--dc-light);
+        font-size: 0.85rem;
+      }
+
+      .section-title {
+        color: var(--dc-lighter);
+        margin-bottom: 1rem;
+      }
+    }
   }
 
   .footer-bottom {
