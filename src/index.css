@@ -81,6 +81,16 @@ body {
 
   .main-content {
     min-height: 100px;
+
+    .comic-card {
+      margin-bottom: 2rem;
+
+      .comic-card-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
   }
 
   /* Banner */
