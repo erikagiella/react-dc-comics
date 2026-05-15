@@ -141,6 +141,10 @@ body {
 
   .footer-bottom {
     background-color: var(--dc-dark);
+
+    .social-followus {
+      color: var(--dc-primary);
+    }
   }
 
 }
