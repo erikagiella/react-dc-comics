@@ -93,11 +93,12 @@ body {
   background-image: url("./assets/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
   background-position: center;
 
-  &>.footer-sections {
+  .footer-sections {
+    position: relative;
     padding: 2.5rem 0rem;
+    z-index: 1;
 
     .footer-section {
       ul {
@@ -118,6 +119,24 @@ body {
         margin-bottom: 1rem;
       }
     }
+  }
+
+  .footer-sections::after {
+    content: "";
+    /* Obbligatorio per attivare lo pseudo-elemento */
+    position: absolute;
+    /* Posizionamento assoluto */
+    top: 0px;
+    right: 20px;
+    width: 50%;
+    height: 100%;
+    background-image: url(./assets/img/dc-logo-bg.png);
+    background-size: cover;
+    /* Copre l'intera area senza distorcere */
+    background-position: center;
+    /* Centra l'immagine */
+    z-index: 0;
+    /* Sposta l'immagine dietro al testo */
   }
 
   .footer-bottom {
