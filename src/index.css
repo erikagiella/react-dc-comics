@@ -144,7 +144,10 @@ body {
 
     .social-followus {
       color: var(--dc-primary);
+      margin-bottom: 0;
     }
+
+
   }
 
 }
