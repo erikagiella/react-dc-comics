@@ -4,16 +4,23 @@ import footerSections from "../data/FooterLinks.js";
 export default function FooterSections() {
     return (
         <div className="footer-sections">
-            <div className="container py-4 d-flex gap-5">
-                {
-                    footerSections.map((section) => (
-                        <FooterSection
-                            key={section.title}
-                            title={section.title}
-                            links={section.links}
-                        />
-                    ))
-                }
+            <div className="container d-flex gap-5">
+                <div className="row">
+                    <div className="col-5 d-flex flex-column gap-3">
+                        <FooterSection {...footerSections[0]} />
+                        <FooterSection {...footerSections[1]} />
+                    </div>
+
+                    <div className="col-4">
+                        <FooterSection {...footerSections[2]} />
+                    </div>
+
+                    <div className="col-3">
+                        <FooterSection {...footerSections[3]} />
+                    </div>
+
+                </div>
+
             </div>
         </div>
     )

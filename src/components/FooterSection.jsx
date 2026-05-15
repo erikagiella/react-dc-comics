@@ -1,6 +1,6 @@
 export default function FooterSection({ title, links }) {
     return (
-        <div className="footer-section d-flex align-items-center gap-3">
+        <div className="footer-section">
             <h4 className="section-title fw-bold">{title}</h4>
             <ul>
                 {
