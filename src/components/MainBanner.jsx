@@ -36,7 +36,7 @@ export default function MainBanner() {
 
     return (
         <div className="main-banner py-3">
-            <div className="banner-content container d-flex flex-row justify-content-center align-items-center px-2 py-4 gap-5">
+            <div className="banner-content container d-flex flex-row justify-content-center align-items-center px-2 py-4 gap-4">
                 {bannerItems.map((item) => (
                     <BannerItem
                         key={item.text}
