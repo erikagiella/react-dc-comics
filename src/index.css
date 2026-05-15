@@ -14,6 +14,7 @@
   --dc-darker: #1c1c1c;
   --dc-dark: #303030;
   --dc-light: gray;
+  --dc-jumbotron: url("./assets/img/jumbotron.jpg")
 }
 
 /* Utilities */
@@ -70,6 +71,13 @@ body {
 .app-main {
   background-color: var(--dc-darker);
   color: var(--dc-lighter);
+
+  .dc-jumbotron {
+    min-height: 400px;
+    background-image: var(--dc-jumbotron);
+    background-size: cover;
+    background-position: top;
+  }
 
   .main-content {
     min-height: 100px;
