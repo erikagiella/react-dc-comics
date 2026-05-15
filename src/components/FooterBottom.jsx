@@ -5,8 +5,10 @@ import SocialSection from "./SocialSection"
 export default function FooterBottom() {
     return (
         <div className="footer-bottom">
-            <SignUpButton />
-            <SocialSection />
+            <div className="container d-flex justify-content-between">
+                <SignUpButton />
+                <SocialSection />
+            </div>
         </div>
     )
 }

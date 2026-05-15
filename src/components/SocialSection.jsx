@@ -6,18 +6,13 @@ export default function SocialSection() {
             <h4>FOLLOW US</h4>
             <ul>
                 {socialLinks.map((social) => (
-
                     <li key={social.name}>
-
                         <a href={social.url}>
-
                             <img
                                 src={social.icon}
                                 alt={social.name}
                             />
-
                         </a>
-
                     </li>
 
                 ))}
