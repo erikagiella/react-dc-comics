@@ -147,6 +147,16 @@ body {
       margin-bottom: 0;
     }
 
+    .social-logo {
+      color: var(--dc-light)
+    }
+
+    .signup-btn {
+      border: 2px solid var(--dc-primary);
+      background-color: transparent;
+      color: var(--dc-lighter);
+    }
+
 
   }
 
